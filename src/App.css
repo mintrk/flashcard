@@ -1,0 +1,21 @@
+.box {
+  width: 180px;
+  height: 120px;
+  border-radius: 0 0 20px 20px;
+  margin: 0 12px;
+}
+.box-border-1 {
+  width: 180px;
+  height: 120px;
+  border-radius: 20px 20px 0 0;
+  border-top: 10px solid;
+  border-left: 10px solid;
+  border-right: 10px solid;
+  background-color: white;
+  margin: 0 12px;
+}
+
+.my-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(14rem, 100%), 1fr));
+}
